@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Assume Natural Numbers that divides by 3 or 5">
+      <UniqueIdentifier>{4ffb9649-a1e2-44e1-bf86-5e988ebe444f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Highest Common divider">
+      <UniqueIdentifier>{5fe75680-f1b4-4cfc-be60-5986e7fa92e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LowestCommonMultiply">
+      <UniqueIdentifier>{8c3ad712-ba91-45f3-bd31-daf4ad7a2b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LowerCommonPrimeNumber">
+      <UniqueIdentifier>{258a148d-1f2b-45ac-b9e9-076da0a67785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrimeNumbersSixths">
+      <UniqueIdentifier>{eef7f7a5-0f61-4343-bc3d-12fc5be35951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abundant">
+      <UniqueIdentifier>{8daac5c7-469b-4086-9911-5476e4c52e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NumericFriends">
+      <UniqueIdentifier>{ac27e224-6b16-48e4-845d-e5f0ba44a662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArmstrongNumbers">
+      <UniqueIdentifier>{b562b187-91aa-4c9d-89f2-7aa71056f6ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrimeFactors">
+      <UniqueIdentifier>{e40344ac-1e5e-448f-b972-3d8194a3b381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraysCode">
+      <UniqueIdentifier>{e0474728-757a-4c23-a4f8-dd5e5713919b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArarbicToRoma">
+      <UniqueIdentifier>{29770df1-934c-4657-8d7a-7e3c24b826b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LongestCollatzsSeries">
+      <UniqueIdentifier>{c71399bc-f755-43a0-bc44-0806912d1660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputePI">
+      <UniqueIdentifier>{7da86644-d3b1-4d98-b954-f6585252234e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssumeNumbersDivideBy3Or5.cpp">
+      <Filter>Assume Natural Numbers that divides by 3 or 5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AssumeNumbersDivideBy3Or5.h">
+      <Filter>Assume Natural Numbers that divides by 3 or 5</Filter>
+    </ClInclude>
+    <ClInclude Include="HighestCommonDivider.hpp">
+      <Filter>Highest Common divider</Filter>
+    </ClInclude>
+    <ClInclude Include="LowestCommonMultiply.hpp">
+      <Filter>LowestCommonMultiply</Filter>
+    </ClInclude>
+    <ClInclude Include="LowerCommonPrimeNumber.hpp">
+      <Filter>LowerCommonPrimeNumber</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimeNumbersSixths.hpp">
+      <Filter>PrimeNumbersSixths</Filter>
+    </ClInclude>
+    <ClInclude Include="Abundant.hpp">
+      <Filter>Abundant</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericFriends.hpp">
+      <Filter>NumericFriends</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmstrongNumbers.hpp">
+      <Filter>ArmstrongNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimeFactors.hpp">
+      <Filter>PrimeFactors</Filter>
+    </ClInclude>
+    <ClInclude Include="GraysCode.hpp">
+      <Filter>GraysCode</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertArabicToRoma.hpp">
+      <Filter>ArarbicToRoma</Filter>
+    </ClInclude>
+    <ClInclude Include="Collatz.hpp">
+      <Filter>LongestCollatzsSeries</Filter>
+    </ClInclude>
+    <ClInclude Include="computePI.hpp">
+      <Filter>ComputePI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
